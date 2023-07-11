@@ -114,7 +114,7 @@
 .sign-up-banner {
     background: rgba(229, 84, 115, 0.05);
     height: 620px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .sign-up-banner-content {
@@ -139,11 +139,126 @@
     line-height: 30px;
     margin: 24px 0 32px;
 }
-.sign-up-banner-text button{
+
+.sign-up-banner-text button {
     display: block;
     margin: auto;
 }
+
 .sign-up-banner-img img {
     width: 318px;
     height: 420px;
+}
+
+/* instagram content img */
+.instagram-content {
+    margin: 0 240px;
+}
+
+.instagram-content-text {
+    margin-bottom: 50px;
+}
+
+.instagram-content-text h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-content-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instagram-content-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.instagram-content-card {
+    width: 342px;
+    height: 396px;
+}
+
+/* subscribe banner styles */
+.subscribe-banner {
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+
+.subscribe-banner h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.subscribe-banner p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.subscribe-banner input {
+    width: 700px;
+    height: 68px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    padding-left: 25px;
+}
+
+/* footer related styles */
+footer {
+    background: #111010;
+    height: 400px;
+    padding-top: 130px;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+footer .copyrights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    margin-top: 15px;
 }
