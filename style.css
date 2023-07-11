@@ -131,6 +131,18 @@
     font-weight: 800;
 }
 
+.sign-up-banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px;
+}
+.sign-up-banner-text button{
+    display: block;
+    margin: auto;
+}
 .sign-up-banner-img img {
     width: 318px;
     height: 420px;
